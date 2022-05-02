@@ -18,9 +18,11 @@ FINCHè la teglia non è piena
     -fare uno strato di ragù
     -fare uno strato di besciamella
     -fare uno strato di parmiggiano
--inserire teglia  nel forno
 -accendere forno
--impostare temperatura a 
--impostare timer
+-impostare temperatura a 170°
+-IF temperatura raggiunge 170° inserire teglia
+    ELSE attendere
+-impostare timer a 40 minuti
+-apparecchiare tavola
 -FINCHè le lasagne non sono cotte: attendere cottura
--mangiare lasagne
+
